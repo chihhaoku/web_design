@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+<title>Classes</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-blue-grey.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<style>
+html,body,h1,h2,h3,h4,h5 {font-family: "Open Sans", sans-serif}
+.active {
+    background-color: #4CAF50;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+</style>
+<body class="w3-theme-l5">
+
+<!-- Navbar -->
+<div class="w3-top">
+ <div class="w3-bar w3-theme-d2 w3-left-align w3-large">
+  <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+  <a href="index.html" class="w3-bar-item w3-button w3-padding-large"><i class="fa fa-home w3-margin-right"></i>Home</a>
+  <a href="myprofile.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="User Profile"><i class="fa fa-user w3-margin-right"></i>My Profile</a>
+  <a href="classes.html" class="active w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="Resources"><i  class="fa fa-institution w3-margin-right"></i>Classes</a>
+  <a href="gradebook.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="Messages"><i class="fa fa-calendar-check-o w3-margin-right"></i>GradeBook</a>
+ <a href="professor.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="News"><i class="fa fa-group w3-margin-right"></i>Professor Profile</a>
+  <a href="resources.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="Resources"><i class="fa fa-book w3-margin-right"></i>Student Resources</a>
+  <div class="w3-dropdown-hover w3-hide-small">
+    <button class="w3-button w3-padding-large" title="Notifications"><i class="fa fa-bell"></i><span class="w3-badge w3-right w3-small w3-green">3</span></button>     
+    <div class="w3-dropdown-content w3-card-4 w3-bar-block" style="width:300px">
+      <a href="#" class="w3-bar-item w3-button">Your professor changed  their information</a>
+      <a href="#" class="w3-bar-item w3-button">Your grades have been updated</a>
+      <a href="#" class="w3-bar-item w3-button">You have a upcoming assignment</a>
+    </div>
+  </div>
+<a href="http://www.ltu.edu" class="w3-bar-item w3-button w3-hide-small w3-right w3-padding-large w3-hover-white" title="My Account">
+    <img src="LTU_Monogram_CLR.png" class="w3-circle" style="height:30px;width:30px" alt="Avatar">
+  </a>
+ </div>
+</div>
+
+<!-- Navbar on small screens -->
+<div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium w3-large">
+ 
+ <a href="professor.html" class="w3-bar-item w3-button w3-padding-large">Professor Profile's</a>
+  <a href="myprofile.html" class="w3-bar-item w3-button w3-padding-large">My Profile</a>
+  <a href="gradebook.html"class="w3-bar-item w3-button w3-padding-large">GradeBook</a>
+  <a href="resources.html"class="w3-bar-item w3-button w3-padding-large">Student Resources</a>
+ <a href="classes.html"  class="w3-bar-item w3-button w3-padding-large">Classes</a>
+
+</div>
+
+<!-- Page Container -->
+<div class="w3-container w3-content" style="max-width:1400px;margin-top:80px;">    
+  <!-- The Grid -->
+  <div class="w3-row">
+    <!-- Left Column -->
+    <div class="w3-col m4">
+  
+
+       
+    </div>
+    
+    <!-- Middle Column -->
+  <div class="w3-col m4">
+   
+<div class="container">
+  <h2>Classes</h2>
+ 
+  <div class="panel-group">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" href="#collapse1">Chemistry</a>
+        </h4>
+      </div>
+      <div id="collapse1" class="panel-collapse collapse">
+        <ul class="list-group">
+            <li class="list-group-item">Professor: Dr. James Funpants</li></a>
+         <a href="#"> <li class="list-group-item">Assignments</li></a>
+  <a href="#"> <li class="list-group-item">Lectures</li></a>
+    <a href="#"> <li class="list-group-item">Documents</li></a>
+        </ul>
+  
+    </div>
+  </div>
+   <div class="panel-group">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" href="#collapse2">Computer Science</a>
+        </h4>
+      </div>
+      <div id="collapse2" class="panel-collapse collapse">
+        <ul class="list-group">
+            <li class="list-group-item">Professor: Robert Holdbooks</li></a>
+         <a href="#"> <li class="list-group-item">Assignments</li></a>
+  <a href="#"> <li class="list-group-item">Lectures</li></a>
+    <a href="#"> <li class="list-group-item">Documents</li></a>
+        </ul>
+       
+    </div>
+  </div>
+   <div class="panel-group">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" href="#collapse3">Management</a>
+        </h4>
+      </div>
+      <div id="collapse3" class="panel-collapse collapse">
+        <ul class="list-group">
+            <li class="list-group-item">Professor: Dr. Susan Hall</li></a>
+         <a href="#"> <li class="list-group-item">Assignments</li></a>
+  <a href="#"> <li class="list-group-item">Lectures</li></a>
+    <a href="#"> <li class="list-group-item">Documents</li></a>
+        </ul>
+       
+    </div>
+  </div>
+   <div class="panel-group">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" href="#collapse4">Calculus</a>
+        </h4>
+      </div>
+      <div id="collapse4" class="panel-collapse collapse">
+        <ul class="list-group">
+            <li class="list-group-item">Professor: Dr. Mary Simplemath</li></a>
+          <a href="#"> <li class="list-group-item">Assignments</li></a>
+  <a href="#"> <li class="list-group-item">Lectures</li></a>
+    <a href="#"> <li class="list-group-item">Documents</li></a>
+        </ul>
+      
+    </div>
+  </div>
+   <div class="panel-group">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" href="#collapse5">Engineering</a>
+        </h4>
+      </div>
+      <div id="collapse5" class="panel-collapse collapse">
+        <ul class="list-group">
+            <li class="list-group-item">Professor: John Doe</li></a>
+         <a href="#"> <li class="list-group-item">Assignments</li></a>
+  <a href="#"> <li class="list-group-item">Lectures</li></a>
+    <a href="#"> <li class="list-group-item">Documents</li></a>
+        </ul>
+   
+    </div>
+  </div>
+   <div class="panel-group">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" href="#collapse6">English</a>
+        </h4>
+      </div>
+      <div id="collapse6" class="panel-collapse collapse">
+        <ul class="list-group">
+            <li class="list-group-item">Professor: Dr. Colin Moustache</li></a>
+         <a href="#"> <li class="list-group-item">Assignments</li></a>
+  <a href="#"> <li class="list-group-item">Lectures</li></a>
+    <a href="#"> <li class="list-group-item">Documents</li></a>
+        </ul>
+</div>
+</div>
+    </div>
+  </div>
+</div>
+
+ </div>    
+   </div>
+      
+    <!-- End Middle Column -->
+    </div>
+    
+    <!-- Right Column -->
+    <div class="w3-col m2">
+      <div class="w3-card w3-round w3-white w3-center">
+       
+      </div>
+      <br>
+      
+      <div class="w3-card w3-round w3-white w3-center">
+        <div class="w3-container">
+            </div>
+          </div>
+        </div>
+      </div>
+      <br>
+      
+   
+      
+    <!-- End Right Column -->
+    </div>
+    
+  <!-- End Grid -->
+  </div>
+  
+<!-- End Page Container -->
+</div>
+<br>
+
+<!-- Footer -->
+
+
+<footer class="w3-container w3-theme-d5 footer">
+  <p>Created by <a href="#" target="_blank">Team 1</a></p>
+</footer>
+ 
+ 
+<script>
+<script>
+// Accordion
+function myFunction(id) {
+    var x = document.getElementById(id);
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+        x.previousElementSibling.className += " w3-theme-d1";
+    } else { 
+        x.className = x.className.replace("w3-show", "");
+        x.previousElementSibling.className = 
+        x.previousElementSibling.className.replace(" w3-theme-d1", "");
+    }
+}
+
+// Used to toggle the menu on smaller screens when clicking on the menu button
+function openNav() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else { 
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+</body>
+</html> 
